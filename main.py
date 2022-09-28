@@ -31,7 +31,7 @@ st.markdown("""<p id="title-1z2x">Bakery Shop Item Recommender</p>""", unsafe_al
 st.markdown("""<p id="caption-1z2x">A Web App that helps recommend items to customer!</p>""", unsafe_allow_html=True)
 
 # Processing the CSV as Pandas DataFrame
-data_depl = pd.read_csv("https://raw.githubusercontent.com/daniel-bss/MarketBasketAnalysis/main/bread_basket.csv")
+data_depl = pd.read_csv("https://raw.githubusercontent.com/daniel-bss/bakery-market-basket-analysis/main/bread_basket.csv")
 data_depl['date_time'] = pd.to_datetime(data_depl['date_time'], format = "%d-%m-%Y %H:%M")
 
 data_depl["month"] = data_depl['date_time'].dt.month
