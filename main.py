@@ -59,7 +59,7 @@ def user_input_features():
     period_day = st.sidebar.selectbox('Period Day', ['Morning', 'Afternoon', 'Evening', 'Night'])
     weekday_weekend = st.sidebar.selectbox('Weekday / Weekend', ['Weekend', 'Weekday'])
     month = st.sidebar.select_slider("Month", ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"])
-    day = st.sidebar.select_slider('Day', ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"])
+    day = st.sidebar.select_slider('Day', ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"], value="Sat")
 
     return period_day, weekday_weekend, month, day, item
 
