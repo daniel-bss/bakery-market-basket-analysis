@@ -13,7 +13,7 @@ with open("style.css") as f:
 st.markdown(
 """
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #3498DB;">
-  <a href="/" id="main-btn">Market Basket Analysis</a>
+  <a href="/" target="_self" id="main-btn">Market Basket Analysis</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -73,7 +73,7 @@ try:
   st.text("User Input Dataframe:")
   st.dataframe(data)
 except:
-  st.markdown("""<h4 style="text-align: center;">No transaction was done on that values😕</h4>""", unsafe_allow_html=True)
+  st.markdown("""<h4 style="text-align: center;">No transactions were done with that values 😕</h4>""", unsafe_allow_html=True)
   st.markdown("""
     <div id="roti-manis">
       <p>Here are some input values to give a try!</p>
