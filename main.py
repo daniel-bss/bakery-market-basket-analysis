@@ -75,7 +75,7 @@ try:
 except:
   st.markdown("""<h4 style="text-align: center;">No transactions were done with that values 😕</h4>""", unsafe_allow_html=True)
   st.markdown("""
-    <div id="roti-manis">
+    <div id="ifno-result">
       <p>Here are some input values to give a try!</p>
       <ul style="margin: 0 auto">
         <li>Period Day: &nbsp;<i>Morning</i></li>
