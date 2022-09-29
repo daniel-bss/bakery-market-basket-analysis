@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from mlxtend.frequent_patterns import association_rules, apriori
 
-st.set_page_config(page_title="MarketBasket Web App", page_icon="🍞", layout="wide", initial_sidebar_state="expanded", menu_items=None)
+st.set_page_config(page_title="Market Basket Analysis", page_icon="🍞", layout="wide", initial_sidebar_state="expanded", menu_items=None)
 
 st.markdown('<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">', unsafe_allow_html=True)
 
@@ -13,7 +13,7 @@ with open("style.css") as f:
 st.markdown(
 """
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #3498DB;">
-  <a href="/" target="_blank" id="main-btn">MarketBasket WebApp</a>
+  <a href="/" id="main-btn">Market Basket Analysis</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
